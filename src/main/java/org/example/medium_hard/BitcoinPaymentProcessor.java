@@ -1,4 +1,4 @@
-package org.example.medium;
+package org.example.medium_hard;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -7,10 +7,10 @@ import java.math.BigDecimal;
 
 
 @Component
-@Qualifier("visa")
-public class VisaCardPaymentProcessor implements PaymentProcessor{
+@Qualifier("bitcoin")
+public class BitcoinPaymentProcessor implements PaymentProcessor{
     @Override
     public void processPayment(BigDecimal d) {
-        System.out.println("Оплачено через Visa карту: " + d);
+        System.out.println("Оплачено через Биткоин: " + d);
     }
 }

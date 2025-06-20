@@ -1,4 +1,4 @@
-package org.example.medium;
+package org.example.medium_hard;
 
 
 import org.springframework.context.annotation.Bean;

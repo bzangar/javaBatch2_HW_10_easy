@@ -1,16 +1,15 @@
-package org.example.medium;
+package org.example.medium_hard;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-
 @Component
-@Qualifier("bitcoin")
-public class BitcoinPaymentProcessor implements PaymentProcessor{
+@Qualifier("mastercard")
+public class MasterCardPaymentProcessor implements PaymentProcessor{
     @Override
     public void processPayment(BigDecimal d) {
-        System.out.println("Оплачено через Биткоин: " + d);
+        System.out.println("Оплачено через MasterCard карту: " + d);
     }
 }
