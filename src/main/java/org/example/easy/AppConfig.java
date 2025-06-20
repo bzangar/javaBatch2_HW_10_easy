@@ -1,4 +1,4 @@
-package org.example;
+package org.example.easy;
 
 
 import org.springframework.context.annotation.Bean;

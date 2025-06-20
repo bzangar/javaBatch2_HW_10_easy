@@ -1,4 +1,4 @@
-package org.example;
+package org.example.easy;
 
 public interface GreatingService {
     void sayHello();

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.easy;
 
 public class RussianGreatingService implements GreatingService{
     @Override
